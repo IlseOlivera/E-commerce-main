@@ -1,0 +1,30 @@
+<%@ Master Language="C#" AutoEventWireup="true" Src="Main.master.cs" Inherits="Main" %>
+<!DOCTYPE html>
+<html xmls="http://>www.w3.org>1999/>xhtml/>
+    
+</html>/">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://kit.fontawesome.com/fd8ab87d68.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <nav id="header">
+                <asp:LinkButton ID="lnkHome" runat="server" OnClick="btnHome_Click">
+                    <img src="./img/logo.svg" />
+                </asp:LinkButton>
+                <ul>
+                    <asp:ContentPlaceHolder ID="navigation" runat="server"></asp:ContentPlaceHolder>
+                </ul>
+            </nav>
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </body>
+</html>
