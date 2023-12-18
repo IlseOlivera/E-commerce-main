@@ -123,3 +123,9 @@ li:hover a{
     height: 80px;
     width: 30px;
   }
+
+  #btnAdd{
+    border: 2px solid darkblue;
+    height: 80px;
+    width: 30px;
+  }

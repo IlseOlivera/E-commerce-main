@@ -23,7 +23,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
     <div class="container">
-        <h1>e-commerce</h1>
+        <h1>Mis productos</h1>
         <h2 class="cards"><asp:LinkButton ID="btnAdd" runat="server" OnClick="btnAdd_Click">Agregar producto</asp:LinkButton></h2>
 
         <section class="cards">
@@ -39,10 +39,10 @@
                     <p class="descripcion">Descripción: 7,3" Laptop Gaming - Intel Core i5 - Memoria 8GB - NVIDIA GeForce GTX 1650 Ti 4GB - SSD de 512GB - Pantalla IPS FHD</p>
                                        
                         <asp:LinkButton ID="btnDelete" runat="server" OnClick="btnDelete_Click">
-                            <img src="img/icon/bote.png" class="dU" alt="" srcset="">
+                            <i class="fa-solid fa-trash"></i>
                         </asp:LinkButton>
                         <asp:LinkButton ID="btnUpdate" runat="server" OnClick="btnUpdate_Click">
-                            <img src="img/icon/lapiz.png" class="dU" alt="" srcset="">
+                            <i class="fa-solid fa-pen-to-square"></i>
                         </asp:LinkButton>
                 </div>
             </div>
@@ -57,10 +57,10 @@
                     <p class="modelo">Dorado</p>
                     <p class="descripcion">Windows 11 Home, AMD Ryzen 3, 8GB RAM, 512GB SSD, FHD 15.6"</p>
                     <asp:LinkButton ID="btnDelete1" runat="server" OnClick="btnDelete1_Click">
-                            <img src="img/icon/bote.png" class="dU" alt="" srcset="">
+                        <i class="fa-solid fa-trash"></i>
                         </asp:LinkButton>
                         <asp:LinkButton ID="btnUpdate1" runat="server" OnClick="btnUpdate1_Click">
-                            <img src="img/icon/lapiz.png" class="dU" alt="" srcset="">
+                            <i class="fa-solid fa-pen-to-square"></i>
                         </asp:LinkButton>                  
                 </div>
             </div>
@@ -76,10 +76,10 @@
                     <p class="modelo">Dorado</p>
                     <p class="descripcion">CX1-15.6" / CX1500CKA-BR0102 / Intel Celeron / 8GB en RAM / 128GB + 100GB</p>
                     <asp:LinkButton ID="btnDelete2" runat="server" OnClick="btnDelete2_Click">
-                            <img src="img/icon/bote.png" class="dU" alt="" srcset="">
+                        <i class="fa-solid fa-trash"></i>
                         </asp:LinkButton>
                         <asp:LinkButton ID="btnUpdate2" runat="server" OnClick="btnUpdate2_Click">
-                            <img src="img/icon/lapiz.png" class="dU" alt="" srcset="">
+                            <i class="fa-solid fa-pen-to-square"></i>
                         </asp:LinkButton>                   
                 </div>
             </div>
