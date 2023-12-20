@@ -32,4 +32,44 @@ public partial class Default : Page
         Response.Redirect("AgregarProductos.aspx");
     }
     //public void btnAdd_Click(object sender, EventArgs e) 
+    public void btnDelete_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("EliminarProductos.aspx");
+    }
+    public void btnUpdate_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("ActualizarProductos.aspx");
+    }
+    public void btnDelete1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("EliminarProductos.aspx");
+    }
+    public void btnUpdate1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("ActualizarProductos.aspx");
+    }
+    public void btnDelete2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("EliminarProductos.aspx");
+    }
+    public void btnUpdate2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("ActualizarProductos.aspx");
+    }
+    public void btnDelete3_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("EliminarProductos.aspx");
+    }
+    public void btnUpdate3_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("ActualizarProductos.aspx");
+    }
+    public void btnDelete4_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("EliminarProductos.aspx");
+    }
+    public void btnUpdate4_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("ActualizarProductos.aspx");
+    }
 }
