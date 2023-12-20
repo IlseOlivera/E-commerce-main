@@ -32,8 +32,12 @@
                         <input type="file" id="imagen" name="imagen" accept="image/*"><br><br>
                         <input type="submit" value="Subir Imagen">
                       </form>
-                </p>
 
+                      <i class="fa-solid fa-arrow-up"></i>
+                </p>
+                <form class="form-Rproducto">
+                    
+                
                     <p>
                         <asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label>
                     <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
@@ -65,6 +69,7 @@
                     <asp:Button ID="btnRegistrar" runat="server" Text="Registrar producto" OnClick="btnRegistrarP_Click" />
     
                     <asp:Label ID="lblError" runat="server" Text=""></asp:Label>
+                </form>
             </div>
         </div>
     </div>

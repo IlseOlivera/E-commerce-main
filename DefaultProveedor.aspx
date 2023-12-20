@@ -22,12 +22,12 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
-    <div class="container">
+    <div class="productos">
         <h1>Mis productos</h1>
         <h2 class="cards"><asp:LinkButton ID="btnAdd" runat="server" OnClick="btnAdd_Click">Agregar producto</asp:LinkButton></h2>
 
-        <section class="cards">
-            <div class="card">
+        <section class="cards-productos">
+            <div class="item">
                 <img src="img/productos/lap-nitro.jpg" alt="" srcset="">
                 <div class="info">
                     <p class="nombre">Laptop Acer-Nitro</p>

@@ -34,12 +34,12 @@
                     <p class="correo">Correo: AcuaJ45@gmail.com</p>
                     <p class="telefono">Telefono: <span>55-89-00-67-12</span></p>
                     <p class="direccion">Dirección: Av. Te</p>               
-                        <asp:LinkButton ID="btnDelete" runat="server" OnClick="btnDelete_Click">
-                            <img src="img/icon/bote.png" class="dU" alt="" srcset="">
-                        </asp:LinkButton>
-                        <asp:LinkButton ID="btnUpdate" runat="server" OnClick="btnUpdate_Click">
-                            <img src="img/icon/lapiz.png" class="dU" alt="" srcset="">
-                        </asp:LinkButton>
+                    <asp:LinkButton ID="btnDelete" runat="server" OnClick="btnDelete_Click">
+                            <i class="fa-solid fa-trash"></i>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="btnUpdate" runat="server" OnClick="btnUpdate_Click">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </asp:LinkButton>
                 </div>
             </div>
             <div class="card">
@@ -49,13 +49,12 @@
                     <p class="correo">Correo: IlseOlivera@gmail.com</p>
                     <p class="telefono">Telefono: <span>55-23-45-87-00</span></p>
                     <p class="direccion">Dirección: Av. Te</p> 
-                    <asp:LinkButton ID="btnDelete1" runat="server" OnClick="btnDelete1_Click">
-                            <img src="img/icon/bote.png" class="dU" alt="" srcset="">
-                        </asp:LinkButton>
-                        <asp:LinkButton ID="btnUpdate1" runat="server" OnClick="btnUpdate1_Click">
-                            <img src="img/icon/lapiz.png" class="dU" alt="" srcset="">
-                        </asp:LinkButton>                  
-                </div>
+                    <asp:LinkButton ID="btnDelete" runat="server" OnClick="btnDelete_Click">
+                            <i class="fa-solid fa-trash"></i>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="btnUpdate" runat="server" OnClick="btnUpdate_Click">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </asp:LinkButton>
             </div>
 
             <div class="card">
@@ -65,12 +64,12 @@
                     <p class="correo">Correo: HNatPao@gmail.com</p>
                     <p class="telefono">Telefono: <span>55-78-40-87-00</span></p>
                     <p class="direccion">Dirección: Av. Te</p> 
-                    <asp:LinkButton ID="btnDelete2" runat="server" OnClick="btnDelete2_Click">
-                            <img src="img/icon/bote.png" class="dU" alt="" srcset="">
-                        </asp:LinkButton>
-                        <asp:LinkButton ID="btnUpdate2" runat="server" OnClick="btnUpdate2_Click">
-                            <img src="img/icon/lapiz.png" class="dU" alt="" srcset="">
-                        </asp:LinkButton>                   
+                    <asp:LinkButton ID="btnDelete" runat="server" OnClick="btnDelete_Click">
+                            <i class="fa-solid fa-trash"></i>
+                    </asp:LinkButton>
+                    <asp:LinkButton ID="btnUpdate" runat="server" OnClick="btnUpdate_Click">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </asp:LinkButton>                 
                 </div>
             </div>
         </section>
