@@ -31,4 +31,5 @@ public partial class Default : Page
     {
         Response.Redirect("AgregarProductos.aspx");
     }
+    //public void btnAdd_Click(object sender, EventArgs e) 
 }
