@@ -1,4 +1,4 @@
-<% @Page Language="C#" MasterPageFile="Main.master" AutoEventWireup="true" Src="AgregarProductos.aspx.cs" Inherits="Default" Title="E-Commerce" %>
+<% @Page Language="C#" MasterPageFile="Main.master" AutoEventWireup="true" Src="AgregarClientes.aspx.cs" Inherits="Default" Title="E-Commerce" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 
@@ -24,12 +24,12 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
-    <h1>Agregar productos</h1>
+    <h1>Agregar clientes</h1>
     <div class="container">
         <div class="container">
             <div class="registrarP">
                 <div class="form-Rproducto">
-                    <p> <strong> Foto del producto:</strong> <br>
+                    <p> <strong> Foto del Cliente:</strong> <br>
                         <form action="users" method="post" enctype="multipart/form-data"><br>
                             <label for="imagen">Selecciona una imagen:</label><br>
                             <input type="file" id="imagen" name="imagen" accept="image/*"><br><br>
@@ -42,38 +42,30 @@
                     <div>
                         <table>
                             <tr>
-                                <th><asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label></th>
+                                <th><asp:Label ID="lblNombre" runat="server" Text="Nombre:"></asp:Label></th>
                                 <th><asp:TextBox ID="txtNombre" runat="server" class="TextB"></asp:TextBox></th>
                             </tr>
                             <tr>
-                                <th><asp:Label ID="lblUnidades" runat="server" Text="Unidades"></asp:Label></th>
-                                <th><asp:TextBox ID="txtUnidades" runat="server" class="TextB"></asp:TextBox></th>
+                                <th><asp:Label ID="lblCorreo" runat="server" Text="Correo:"></asp:Label></th>
+                                <th><asp:TextBox ID="txtCorreo" runat="server" class="TextB"></asp:TextBox></th>
                             </tr>
                             <tr>
-                                <th><asp:Label ID="lblPrecio" runat="server" Text="Precio"></asp:Label></th>
-                                <th><asp:TextBox ID="txtPrecio" runat="server" class="TextB"></asp:TextBox></th>
+                                <th><asp:Label ID="lblContrasena" runat="server" Text="Contrasea:"></asp:Label></th>
+                                <th><asp:TextBox ID="txtContrasena" runat="server" class="TextB"></asp:TextBox></th>
                             </tr>
                             <tr>
-                                <th><asp:Label ID="lblMarca" runat="server" Text="Marca"></asp:Label></th>
-                                <th><asp:TextBox ID="txtMarca" runat="server" class="TextB"></asp:TextBox></th>
+                                <th><asp:Label ID="lblTelefono" runat="server" Text="Telefono"></asp:Label></th>
+                                <th><asp:TextBox ID="txtTelefono" runat="server" class="TextB"></asp:TextBox></th>
                             </tr>
                             <tr>
-                                <th><asp:Label ID="lblModelo" runat="server" Text="Modelo"></asp:Label></th>
-                                <th><asp:TextBox ID="txtModelo" runat="server" class="TextB"></asp:TextBox></th>
-                            </tr>
-                            <tr>
-                                <th><asp:Label ID="lblColor" runat="server" Text="Color"></asp:Label></th>
-                                <th><asp:TextBox ID="txtColor" runat="server" class="TextB"></asp:TextBox></th>
-                            </tr>
-                            <tr>
-                                <th><asp:Label ID="lblDescripcion" runat="server" Text="Descripcion"></asp:Label></th>
-                                <th><asp:TextBox ID="txtDescripcion" runat="server" class="TextB"></asp:TextBox></th>
+                                <th><asp:Label ID="lblDireccion" runat="server" Text="Direccion: "></asp:Label></th>
+                                <th><asp:TextBox ID="txtDireccion" runat="server" class="TextB"></asp:TextBox></th>
                             </tr>
                             
                         </table>
                         
                     </div>
-                    <asp:Button ID="btnRegistrar" runat="server" Text="Registrar producto" OnClick="btnRegistrarP_Click" />
+                    <asp:Button ID="btnRegistrar" runat="server" Text="Registrar cliente" OnClick="btnRegistrarC_Click" />
     
                     <asp:Label ID="lblError" runat="server" Text="">
                         

@@ -278,16 +278,17 @@ li:hover a{
 }
 .cards-productos{
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
     margin-bottom: 50px;
+    height: 245px;
 }
 .cards-productos .item{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     background-color: #FFFFFF;
     margin-bottom: 20px;
@@ -296,6 +297,10 @@ li:hover a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.img-prod{
+    width: 250px;
+    margin-right: 5px;
 }
 /*movera productos parte de abajo*/
 .lista-carrito{
@@ -472,4 +477,51 @@ li:hover a{
 .form-registrarP{
     font-size: 1rem;
     margin-bottom: 20px;
+}
+
+.form-Rproducto{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFCEFF;
+    margin-bottom: 20px;
+}
+.form-Rproducto .TextB{
+    width: 150%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.registrarP input[type="submit"]{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #C35DFF;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/*Registro de clientes*/
+.registrarC{
+    width: 30%;
+        background-color: #C35DFF; /* Green */
+        border-radius: 10px;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        align-items: center;
+        font-size: 1.2rem; 
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+        
 }
